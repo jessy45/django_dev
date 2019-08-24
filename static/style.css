@@ -1,0 +1,71 @@
+.nav {
+  display: flex;
+  /* flex-direction: column; */
+  /* background-color: rgb(26, 124, 124); */
+  justify-content: space-between;
+  height: 100vh;
+  color: white;
+  background: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(img/bugatti.jpg) top;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%); }
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  color: #f3e5e5; }
+
+ul li a {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  text-transform: lowercase;
+  font-family: Lucida Sans; }
+
+.nav__list {
+  display: flex;
+  list-style: none;
+  width: 40%;
+  justify-content: right; }
+
+.list-items {
+  padding: 1rem;
+  font-family: Lucida Sans;
+  font-size: 0.9rem;
+  text-transform: unset;
+  text-decoration: none;
+  color: #fff; }
+
+.brand {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  justify-content: top; }
+
+.titre {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #fff;
+  position: absolute;
+  font-size: 2.4rem;
+  letter-spacing: 1rem;
+  text-align: justify;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.sous-titre {
+  text-transform: capitalize;
+  font-weight: 500;
+  color: #fff;
+  position: absolute;
+  font-size: 1.2rem;
+  letter-spacing: 1rem;
+  text-align: justify;
+  top: 49%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
