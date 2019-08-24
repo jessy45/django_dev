@@ -4,7 +4,7 @@
   /* background-color: rgb(26, 124, 124); */
   justify-content: space-between;
   height: 100vh;
-  color: white;
+  color: #fff;
   background: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(img/img1.jpg) top;
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%); }
 
@@ -20,7 +20,7 @@ ul li a {
   display: flex;
   text-decoration: none;
   list-style: none;
-  color: white;
+  color: #fff;
   text-transform: lowercase; }
 
 .nav__list {
